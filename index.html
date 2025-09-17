@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Revenda Redragon</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .hero {
+      background: linear-gradient(to right, #1a1a1a, #b80000);
+      color: white;
+      padding: 100px 0;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+    .hero p {
+      font-size: 1.2rem;
+    }
+    .icon-box {
+      text-align: center;
+      padding: 30px;
+    }
+    .icon-box i {
+      font-size: 40px;
+      color: #b80000;
+      margin-bottom: 15px;
+    }
+    footer {
+      background: #1a1a1a;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Revenda Redragon</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+          <li class="nav-item"><a class="nav-link" href="#produtos">Produtos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <h1>Equipamentos Gamer de Alta Performance</h1>
+      <p>Teclados, mouses, headsets e acessórios oficiais Redragon</p>
+      <a href="#produtos" class="btn btn-light btn-lg mt-3">Conheça nossos produtos</a>
+    </div>
+  </section>
+
+  <!-- Sobre -->
+  <section id="sobre" class="py-5">
+    <div class="container text-center">
+      <h2 class="fw-bold mb-4">Sobre Nós</h2>
+      <p>Somos revendedores oficiais da marca <strong>Redragon</strong>, oferecendo produtos gamers de qualidade com garantia e confiança. Nosso compromisso é proporcionar a melhor experiência para gamers e profissionais que exigem performance.</p>
+    </div>
+  </section>
+
+  <!-- Produtos -->
+  <section id="produtos" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="fw-bold text-center mb-5">Nossos Produtos</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="icon-box shadow rounded p-4">
+            <i class="fas fa-keyboard"></i>
+            <h5 class="fw-bold">Teclados Mecânicos</h5>
+            <p>Precisão, rapidez e durabilidade para elevar seu jogo.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="icon-box shadow rounded p-4">
+            <i class="fas fa-mouse"></i>
+            <h5 class="fw-bold">Mouses Gamer</h5>
+            <p>Alto desempenho com sensores precisos e design ergonômico.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="icon-box shadow rounded p-4">
+            <i class="fas fa-headphones"></i>
+            <h5 class="fw-bold">Headsets</h5>
+            <p>Áudio imersivo e conforto para longas sessões de jogo.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="py-5">
+    <div class="container">
+      <h2 class="fw-bold text-center mb-4">Fale Conosco</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form>
+            <div class="mb-3">
+              <label for="nome" class="form-label">Nome</label>
+              <input type="text" class="form-control" id="nome" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+              <label for="mensagem" class="form-label">Mensagem</label>
+              <textarea class="form-control" id="mensagem" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-danger w-100">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>Revenda: Redragon - CNPJ: 28.848.520/0001-78 © Todos os direitos reservados. 2025</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
